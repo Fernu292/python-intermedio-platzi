@@ -4,6 +4,7 @@
 #Estas funciones anonimas tienen un return implicito
 def run():
     
+    #lambda argumento : expresion 
     palindromo = lambda string : string == string [::-1]
     
     print(palindromo('ana'))
